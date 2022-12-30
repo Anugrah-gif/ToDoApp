@@ -13,7 +13,7 @@ function Addtask({addTask}) {
     <div>
         <input className='input' type="text"value={value} placeholder='Add new task here...' onChange={(e)=>{setValue(e.target.value)}}/>
         <button onClick={addItem} className='button'>Add</button>
-        
+        hiiiii
     </div>
   )
 }
